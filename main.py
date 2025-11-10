@@ -8,7 +8,7 @@ VITRIPING = "none"
 RANDOM = True
 P4RYX = 1
 
-with open("token.txt", "r", encoding="utf-8") as a, open("nhay 2.txt", "r", encoding="utf-8") as b:
+with open("token.txt", "r", encoding="utf-8") as a, open("war.txt", "r", encoding="utf-8") as b:
     C = [line.strip() for line in a if line.strip()]
     D = [line.strip() for line in b if line.strip()]
 
